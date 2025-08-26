@@ -1,0 +1,30 @@
+@import "tailwindcss";
+body {
+  display: flex;
+  flex-direction: column;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+input {
+  border-radius: 5px;
+  border: solid 2px black;
+  background-color: aliceblue;
+  padding: 2px;
+  color: black;
+  height: 40px;
+}
+button {
+  background-color: green;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
