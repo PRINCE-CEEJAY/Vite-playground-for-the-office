@@ -1,9 +1,12 @@
 @import "tailwindcss";
 * {
-  padding: 0;
+  box-sizing: border-box;
   margin: 0;
-  border: border-box;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+body {
+  background-color: black;
+  color: white;
 }
 input {
   border-radius: 5px;
@@ -13,13 +16,13 @@ input {
   color: black;
   height: 40px;
 }
-button {
+/* button {
   background-color: green;
   font-weight: bold;
   color: white;
   padding: 5px;
   border-radius: 5px;
-}
+} */
 button:hover {
   cursor: pointer;
   opacity: 0.8;
